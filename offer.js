@@ -7,19 +7,29 @@ for (let i = 0; i < allItem.length; i++) {
   bitLists += `${item.textContent}さん<br>`;
 }
 
+let imgTag = "";
+if (addImageUrl) {
+  imgTag = `<img src="${addImageUrl}" width="200"><br>`;
+}
+
 const ran = Math.floor(Math.random() * myArry.length);
 const newDiv = document.createElement("div");
 newDiv.innerHTML = `
 =====================<br>
-抽選結果<br>
+Botによる抽選結果<br>
 =====================<br>
-<a href="${myArry[ran][0]}" target="_blank">${myArry[ran][1]}</a>さん<br>
-<br>
+${imgTag}
+当選者：<a href="${myArry[ran][0]}" target="_blank">${
+  myArry[ran][1]
+}</a>さん 🎉<br>
 <br>
 =====================<br>
-応募者<br>
+応募者一覧（合計入札回数：${myArry.length}）<br>
 =====================<br>
 ${bitLists}
 `;
+
+newDiv.style.color = "#444";
+newDiv.style.padding = "2em";
 
 document.body.insertBefore(newDiv, document.body.firstChild);

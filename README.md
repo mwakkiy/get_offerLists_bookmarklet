@@ -9,7 +9,7 @@ Opensea のオファー者一覧を取得するブックマークレット
 URL を下記に変更
 
 ```
-javascript:(function(d,j,s){s=d.createElement('script');s.src=j;d.body.appendChild(s);})(document,'https://mwakkiy.github.io/get_offerLists_bookmarklet/offer.js')
+javascript:(function(d,j,s){addImageUrl = "https://i.seadn.io/gcs/files/a4c2e1f83753a81ad0ffee3db87f6b4a.png?auto=format&w=200";s=d.createElement('script');s.src=j;d.body.appendChild(s);})(document,'https://mwakkiy.github.io/get_offerLists_bookmarklet/offer.js')
 ```
 
 ## 使い方
