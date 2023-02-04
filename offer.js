@@ -19,7 +19,7 @@ newDiv.innerHTML = `
 Botによる抽選結果<br>
 =====================<br>
 ${imgTag}
-当選者：<a href="${myArry[ran][0]}" target="_blank">${
+当選者：<a href="${myArry[ran][0]}" target="_blank" style="color:blue">${
   myArry[ran][1]
 }</a>さん 🎉<br>
 <br>
