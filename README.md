@@ -9,6 +9,9 @@ Opensea のオファー者一覧を取得するブックマークレット
 URL を下記に変更
 
 ```
+javascript:(function(d,j,s){s=d.createElement('script');s.src=j;d.body.appendChild(s);})(document,'https://mwakkiy.github.io/get_offerLists_bookmarklet/offer.js')
+
+
 avascript: void (import('https://mwakkiy.github.io/get_offerLists_bookmarklet/offer.js').then(m => m.getOffer()));
 ```
 
