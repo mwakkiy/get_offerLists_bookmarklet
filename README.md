@@ -1,0 +1,2 @@
+# get_offerLists_bookmarklet
+Openseaのオファー者一覧を取得するブックマークレット
