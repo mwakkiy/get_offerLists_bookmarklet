@@ -19,3 +19,9 @@ Opensea の該当コレクション → アクティビティ → 　オファ�
 https://opensea.io/ja/collection/ninjaanimals2nd/activity?search[eventTypes][0]=OFFER_ENTERED
 
 先ほど設定したブックマークをクリック。
+
+## 画像の変更方法
+
+ブックマークに登録する URL 内の  
+"https://i.seadn.io/gcs/files/a4c2e1f83753a81ad0ffee3db87f6b4a.png?auto=format&w=200"  
+部分を好きな画像に変更すれば、それが使われる様になります。
